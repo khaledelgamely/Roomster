@@ -1,0 +1,33 @@
+.rdp-day_selected, .rdp-day_selected:focus-visible, .rdp-day_selected:hover {
+    background-color: #d8ebc8;
+    color: #000;
+}
+.rdp-button:hover:not([disabled]):not(.rdp-day_selected) {
+    background-color: #d8ebc8;
+}
+
+.rdp:not([dir='rtl']) .rdp-day_range_start:not(.rdp-day_range_end) {
+    background-color: #4ba106;
+    border-radius: 30px;
+    color: #fff;
+}
+.rdp:not([dir='rtl']) .rdp-day_range_end:not(.rdp-day_range_start) {
+    background-color: #4ba106;
+    border-radius: 30px;
+    color: #fff;
+
+}
+
+.rdp-cell:has(.rdp-day_range_start) {
+    background-color: #d8ebc8;
+    border-radius: 18px 0px 0px 18px;    
+  }
+
+.rdp-cell:has(.rdp-day_range_end) {
+    background-color: #d8ebc8;
+    border-radius: 0px 18px 18px 0px;
+    -webkit-border-radius: 0px 18px 18px 0px;
+    -moz-border-radius: 0px 18px 18px 0px;
+    -ms-border-radius: 0px 18px 18px 0px;
+    -o-border-radius: 0px 18px 18px 0px;
+}

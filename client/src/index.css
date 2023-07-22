@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Josefin+Sans:wght@100&family=Jost:ital,wght@0,600;0,700;1,400;1,500;1,900&family=Montserrat:wght@400;500;600&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Outfit:wght@300;400;500;700;800;900&family=Roboto:ital,wght@0,400;0,500;1,500&display=swap');
+
+.logo {
+  width: 143px;
+  height: 66px;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  margin-top: 5px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  padding-bottom: 45px;
+  overflow-x: hidden;
+}
+
+/* Position the footer at the bottom of the page */
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(97 147 100);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  box-sizing: border-box;
+  z-index: 1000000000000;
+}
+
+/* Style the Google Translate Element */
+#google_translate_element {
+  font-size: 14px;
+  color: #000;
+  padding: 6px;
+  border: none;
+  font-family: "Roboto";
+}
+
+/* Style the dropdown menu */
+.goog-te-combo {
+  color: #000;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+
+  margin: 0px 0;
+  /* transform: translateX(155px); */
+  font-size: 11px;
+  height: 35px;
+  cursor: pointer;
+  /* -webkit-transform: translateX(155px);
+  -moz-transform: translateX(155px);
+  -ms-transform: translateX(155px);
+  -o-transform: translateX(155px); */
+}
+
+/* Style the translation button */
+.goog-te-banner-button {
+  font-size: 22px;
+  color: #fff;
+  background-color: rgb(35, 47, 62);
+  border: none;
+  padding: 4px;
+}
+
+/* Style the tooltip */
+.goog-tooltip {
+  font-size: 18px;
+  color: #fff;
+}
+
+/* Style the tooltip content */
+.goog-tooltip > .goog-tooltip-content {
+  background-color: rgb(35, 47, 62);
+}
+
+/* Style the contact information links and "About Us" link */
+/* #contact-info a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+} */
+
+/* Style the Twitter link */
+/* #contact-info a:nth-child(3) {
+  margin-left: 20px;
+} */
+
+/* Style the "About Us" link */
+#contact-info a:last-child {
+  background-color: #fff;
+  color: #2ecc71;
+  border-radius: 4px;
+  padding: 6px;
+  margin-left: 20px;
+}
+
+/* Style the "About Us" link on hover */
+#contact-info a:last-child:hover {
+  background-color: #4caf50;
+  color: #fff;
+  text-decoration: none;
+}
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+  visibility: hidden !important;
+}
+
+.goog-te-gadget {
+  color: transparent !important;
+  display: flex;
+  justify-content: space-around;
+  /* width: 0; */
+  align-items: center;
+}
+
+.VIpgJd-ZVi9od-l4eHX-hSRGPd,
+.VIpgJd-ZVi9od-l4eHX-hSRGPd:link,
+.VIpgJd-ZVi9od-l4eHX-hSRGPd:visited,
+.VIpgJd-ZVi9od-l4eHX-hSRGPd:hover,
+.VIpgJd-ZVi9od-l4eHX-hSRGPd:active {
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  margin-right: 50px;
+  text-decoration: none;
+}
+#currency-select {
+  margin-left: -27px;
+  padding: 1px;
+  border-radius: 4px;
+  border: none;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  height: 35px;
+  position: absolute;
+  top: 27px;
+  left: 35px;
+  transform: translateY(-50%);
+  
+}
+
+.swal2-container.swal2-center.swal2-backdrop-show {
+  z-index: 10000;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+/* Target the scrollbar thumb */
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #0695ff;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+/* 
+.app {
+  display: flex;
+  position: relative;
+} */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.profile_image {
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.dashBoard {
+  display: flex;
+  width: 100vw !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+/* this for active link in navbar */
+a.active div {
+  color: #8bc34a !important;
+}
+.filterSearch {
+  /* flex-direction: row;
+  margin-top: -8px;
+  width: calc(105% + 8px);
+  margin-left: -8px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 25vh !important;
+  margin-bottom: 45px !important;
+  background-color: white !important;
+  position: sticky !important;
+  top: 77px !important;
+  z-index: 500 !important; */
+  flex-direction: row;
+  margin-top: -8px;
+  width: calc(105% + 8px);
+  margin-left: -8px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 17vh !important;
+  margin-bottom: 86px !important;
+  background-color: #ffffff !important;
+  position: fixed!important;
+  top: 81px !important;
+  z-index: 17 !important;
+  /* margin-right: 40px; */
+  width: 97vw !important;
+  padding-right: 17px;
+}

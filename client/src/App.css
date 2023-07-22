@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+*{
+    font-family: 'Cairo', sans-serif;
+
+}
+.pointer {
+    cursor: pointer;
+}
+
+.centerItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.betweenItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* .svg-inline--fa {
+    display: var(--fa-display, inline-block);
+    height: 1em;
+    width: 1em !important;
+    font-size: 1rem !important; 
+    overflow: visible;
+    vertical-align: -0.125em;
+} */

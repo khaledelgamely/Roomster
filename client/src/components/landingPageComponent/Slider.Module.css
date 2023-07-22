@@ -1,0 +1,55 @@
+/* Default styles */
+.sliderHeader{
+    color: rgb(155, 145, 131);
+    font-family: "Gilda Display", Sans-serif;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+
+.sliderSub{
+    color: rgb(155, 145, 131);
+    font-family: "Roboto", Sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.4em;
+}
+
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 767px) {
+    .sliderHeader{
+        font-size: 35px;
+        line-height: 1.3em;
+    }
+
+    .sliderSub{
+        font-size: 14px;
+        line-height: 1.5em;
+    }
+}
+
+/* Media query for screens between 768px and 1024px */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .sliderHeader{
+        font-size: 36px;
+        line-height: 1.2em;
+    }
+
+    .sliderSub{
+        font-size: 16px;
+        line-height: 1.4em;
+    }
+}
+
+/* Media query for screens larger than 1024px */
+@media screen and (min-width: 1024px) {
+    .sliderHeader{
+        font-size: 42px;
+        line-height: 1.2em;
+    }
+
+    .sliderSub{
+        font-size: 17px;
+        line-height: 1.4em;
+    }
+}

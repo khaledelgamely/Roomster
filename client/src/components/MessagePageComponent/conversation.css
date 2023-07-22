@@ -1,0 +1,66 @@
+/* .MuiCardHeader-title,
+.css-et1ao3-MuiTypography-root {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  /* overflow: hidden; */
+/* text-overflow: ellipsis;
+  height: 30px;
+  width: 100px;
+*/
+p {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.card-conversation {
+  display: flex;
+  background-color: white;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+  padding: 10px 0 10px 10px;
+  cursor: pointer;
+}
+
+.card-conversation:hover {
+  background-color: #0695ff;
+}
+.seen{
+  background-color: white;
+  
+}
+.unseen{
+  background-color: #eee;
+  font-weight: bolder;
+}
+.card-conversation .title-content {
+  display: block;
+}
+
+.card-conversation .title-content .title {
+  font-size: 17px;
+  color: rgb(17, 17, 17);
+  margin-bottom: 1px;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  /* max-width: 20px; */
+  max-width: 150px;
+  text-overflow: ellipsis;
+}
+
+.card-conversation .title-content .date {
+  font-size: 14px;
+
+  max-width: 150px;
+  color: #c3bebe;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 700px) {
+  .card-conversation .title-content {
+    display: none;
+  }
+}
